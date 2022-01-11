@@ -1,0 +1,297 @@
+@keyframes bgcolor {
+    0% {
+        background-color: lightblue 
+    }
+
+    20% {
+        background-color: aqua
+    }
+    
+    40% {
+        background-color: greenyellow
+    }
+    
+    50% {
+        background-color: yellow
+    }
+
+    60% {
+        background-color: orange
+    }
+
+    80% {
+        background-color: red
+    }
+
+    100% {
+        background-color: purple
+    }
+}
+@keyframes acolor {
+    0% {
+       color: lightblue
+    }
+
+    20% {
+        color: aqua
+    }
+    
+    40% {
+        color: greenyellow
+    }
+    
+    50% {
+        color: yellow
+    }
+
+    60% {
+        color: orange
+    }
+
+    80% {
+        color: red
+    }
+
+    100% {
+        color: purple
+    }
+}
+@keyframes buttoncolor {
+    0% {
+        color: purple
+    }
+
+    20% {
+        color: lightblue
+    }
+    
+    40% {
+        color: aqua
+    }
+    
+    50% {
+        color: greenyellow
+    }
+
+    60% {
+        color: yellow
+    }
+
+    80% {
+        color: orange
+    }
+
+    100% {
+        color: red
+    }
+}
+
+@-webkit-keyframes colorchange { 
+    0% {
+       color: lightblue
+    }
+
+    20% {
+        color: aqua
+    }
+    
+    40% {
+        color: greenyellow
+    }
+    
+    50% {
+        color: yellow
+    }
+
+    60% {
+        color: orange
+    }
+
+    80% {
+        color: red
+    }
+
+    100% {
+        color: purple
+    }
+}
+
+body {
+    animation: bgcolor 60s infinite;
+}
+#nav {
+  height: 50px;
+  width: 1500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding-top: 30px;
+  opacity: 0.9;
+}
+#navElements {
+  font-size: 20px;
+  line-height: 1;
+}
+.acolor {
+  animation: acolor 60s infinite;
+  text-decoration: none;
+}
+
+#hbutton{
+    height : 30px;
+    width : 150px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+.hback {
+  background-image:url("https://images-na.ssl-images-amazon.com/images/I/41I%2BvcnXn-L.png");
+	background-size: 600px;
+	background-repeat: no-repeat;
+}
+
+.title { 
+  font-size: 160px;
+  text-align: right;
+}
+
+#playbutton{
+    height : 50px;
+    width : 250px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute; 
+    left: 680px;
+    top: 320px;
+}
+
+#playbutton2{
+    height : 50px;
+    width : 250px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute; 
+    left: 500px;
+    top: 320px;
+}
+
+#playbutton3{
+    height : 50px;
+    width : 250px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute; 
+    left: 500px;
+    top: 390px;
+}
+
+button.difficultyb{
+    height : 40px;
+    width : 90px;
+    background-color: white ;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+button::-moz-focus-inner.difficultyb{
+    height : 40px;
+    width : 90px;
+    background-color: white ;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+button:hover.difficultyb,button:focus.difficultyb{
+    height : 40px;
+    width : 90px;
+    background-color: blue ;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+button:active.difficultyb{
+    height : 40px;
+    width : 90px;
+    background-color: white ;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.end { 
+  height: 275px;
+  width: 175px;
+  text-align: center;
+  float: left;
+}
+
+.endwin { 
+  font-size: 80px;
+  align: center;
+
+}
+
+.endloss {
+  font-size: 100px;
+  text-align: center;
+}
+
+.endbutton{
+    height : 50px;
+    width : 250px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute; 
+    left: 500px;
+    top: 500px;
+    -webkit-animation:colorchange 60s infinite alternate;
+} 
+
+.playbutton{
+    height : 50px;
+    width : 250px;
+    background-color: black ;
+    border: none;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute; 
+    left: 500px;
+    top: 400px;
+    -webkit-animation:colorchange 60s infinite alternate;
+}
